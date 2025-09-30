@@ -13,19 +13,13 @@ and allows for basic piece movement according to chess rules.
 
 ## How to Run
 1. Clone or download this repository.
-2. Create an `index.html` file with a container `<div id="container"></div>` element.
-3. Link the JavaScript file in your HTML:
-   ```html
-   <script src="script.js"></script>
-   ```
-4. Add basic CSS for `.square` to control layout and appearance (size, positioning, etc.).
-5. Open `index.html` in your browser.
+2. Open `index.html` in your browser.
 
 ## File Structure
 ```
 /project-folder
 │── index.html
-│── script.js
+│── js.js
 │── style.css
 │── README.md
 ```
@@ -39,7 +33,7 @@ and allows for basic piece movement according to chess rules.
 - ♙ Pawn  
 
 ## Future Improvements
-- Add full move validation (check, checkmate, castling, en passant, promotion).
+- Add full move validation (en passant, promotion).
 - Implement an AI opponent.
 - Add drag-and-drop support for moving pieces.
 - Improve UI/UX with animations.
