@@ -1,42 +1,25 @@
-# JavaScript Chess Board
+# Chess (Web)
 
-This project is a simple JavaScript-based chess board implementation.  
-It dynamically generates an 8x8 chess grid in the browser, places chess pieces in their initial positions, 
-and allows for basic piece movement according to chess rules.
+This repository contains a simple browser-based chess game built with HTML, CSS and JavaScript.
 
-## Features
-- Chessboard is generated dynamically using JavaScript and styled with CSS.
-- Pieces are displayed using Unicode chess symbols.
-- Supports legal moves for pawns, rooks, knights, bishops, queens, and kings.
-- Includes turn-based interaction between two players.
-- Automatic coloring of squares in alternating light/dark pattern.
+Play the game (GitHub Pages):
 
-## How to Run
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
+https://MoezBenJemiaa.github.io/chess/
 
-## File Structure
-```
-/project-folder
-│── index.html
-│── js.js
-│── style.css
-│── README.md
-```
+Files of interest
+- game.html — the game's HTML entry point
+- js.js — main JavaScript game logic
+- css.css — styles
+- BG.jfif — background image used by the site
 
-## Example Piece Symbols
-- ♔ King  
-- ♕ Queen  
-- ♖ Rook  
-- ♗ Bishop  
-- ♘ Knight  
-- ♙ Pawn  
+Run locally
+1. Clone the repository:
+   git clone https://github.com/MoezBenJemiaa/chess.git
+2. Open game.html (or index.html if present) in a browser.
 
-## Future Improvements
-- Add full move validation (en passant, promotion).
-- Implement an AI opponent.
-- Add drag-and-drop support for moving pieces.
-- Improve UI/UX with animations.
+Notes
+- The site is published with GitHub Pages at the link above. If you don't see changes immediately after updating files, give GitHub Pages a minute to rebuild.
+- To make the game available at the repository root, this project uses an index.html that redirects to game.html (or you can rename game.html to index.html).
 
-## License
-This project is open-source and available under the MIT License.
+License
+This project does not include a license file; add one if you want to grant usage rights.
