@@ -22,4 +22,4 @@ Notes
 - To make the game available at the repository root, this project uses an index.html that redirects to game.html (or you can rename game.html to index.html).
 
 License
-This project does not include a license file; add one if you want to grant usage rights.
+
