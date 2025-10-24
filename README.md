@@ -5,6 +5,8 @@ This repository contains a simple browser-based chess game built with HTML, CSS 
 Play the game (GitHub Pages):
 
 https://MoezBenJemiaa.github.io/chess/
+<img width="907" height="902" alt="image" src="https://github.com/user-attachments/assets/16e2c5ca-4dda-4948-bb9b-4cadd2a940c9" />
+
 
 Files of interest
 - game.html — the game's HTML entry point
